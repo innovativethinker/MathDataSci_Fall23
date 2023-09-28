@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        .light {
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .light.red {
+            background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="15" fill="#FF0000"/></svg>');
+        }
+
+        .light.green {
+            background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="15" fill="#00FF00"/></svg>');
+        }
+    </style>
+</head>
+<body>
+
+<ul id="todo-list">
+    <li>
+        <span class="light red"></span> Task 1
+    </li>
+    <li>
+        <span class="light red"></span> Task 2
+    </li>
+    <!-- Add more tasks as needed -->
+</ul>
+
+<script>
+    document.getElementById('todo-list').addEventListener('click', function(e) {
+        if (e.target && e.target.classList.contains('light')) {
+            if (e.target.classList.contains('red')) {
+                e.target.classList.remove('red');
+                e.target.classList.add('green');
+            } else if (e.target.classList.contains('green')) {
+                e.target.classList.remove('green');
+                e.target.classList.add('red');
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
