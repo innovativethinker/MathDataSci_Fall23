@@ -1,3 +1,6 @@
+## load mnist
+
+
 `python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,6 +20,8 @@ def plot(x):
     if type(x) == torch.Tensor:
         x = x.cpu().detach().numpy()
 
+## mnist
+
 train_set = datasets.MNIST('./data', train=True, download=True)
 test_set = datasets.MNIST('./data', train=False, download=True)
 
@@ -33,7 +38,13 @@ plt.imshow(X[1000, :].reshape(28, 28))
 X = X.reshape(X.shape[0], 784)
 X_test = X_test.reshape(X_test.shape[0], 784)
 
+##Transpose
+
 X = X.T
+
+##Reshape image tensor
+
+
 X = GPU_data(X)
 Y = GPU_data(Y)
 X_test = GPU_data(X_test)
@@ -44,8 +55,12 @@ x = X[:, 0:64]
 M = GPU(np.random.rand(10, 784))
 y = M @ x
 
+##random y=m@x model
+
 y = torch.argmax(y, 0)
 accuracy = torch.sum((y == Y[0:batch_size])) / batch_size
+
+##randome walk
 
 m_best = 0
 acc_best = 0
