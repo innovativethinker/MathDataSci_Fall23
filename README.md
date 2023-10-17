@@ -19,6 +19,7 @@
 
 ## Colab Notebooks
 [Notebook1](https://colab.research.google.com/drive/10W-q3ZJMBU-pClhYmIpqCUTw5RI7Q9li?usp=sharing)
+[## Original Code View the code [here](problemset2.py).] (https://github.com/innovativethinker/MathDataSci_Fall23/blob/main/problemset2md)
 
 
 ## Researcher Roster
