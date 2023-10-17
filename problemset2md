@@ -1,0 +1,59 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+import requests
+from PIL import Image
+import cv2
+
+##importing url image and converting it to rgb 
+URL = 'https://3.bp.blogspot.com/-DG4rqFtAJ4c/T-8mUvVo6yI/AAAAAAAADKc/eSxKhutGC_Q/s1600/green+glades+017.JPG'
+response = requests.get(URL, stream=True)
+img = Image.open(response.raw).convert("RGB")
+
+##plotting the original image
+plt.imshow(img)
+plt.title("Original Image")
+plt.axis('off')
+plt.show()
+
+##choosing type of array
+img_array = np.array(img)
+print("Shape:", img_array.shape)
+
+## resizing image
+resized_image = cv2.resize(img_array, (224, 224))
+
+##plot for new sized image
+plt.imshow(resized_image)
+plt.title("Resized Image")
+plt.axis('off')
+plt.show()
+
+##greyscale image 
+grayscale_image = cv2.cvtColor(resized_image, cv2.COLOR_RGB2GRAY)
+print("Grayscale Shape:", grayscale_image.shape)
+
+#plot for grey scale image
+plt.imshow(grayscale_image, cmap='gray')
+plt.title("Grayscale Image")
+plt.axis('off')
+plt.show()
+
+## 10 different types of grey scale image filters
+filter_size = 3
+filters = [np.random.randn(filter_size, filter_size) for _ in range(10)]
+
+fig, axs = plt.subplots(10, 2, figsize=(10, 30))
+for i, filt in enumerate(filters):
+    feature_map = cv2.filter2D(grayscale_image, -1, filt)
+
+    axs[i, 0].imshow(filt, cmap='gray')
+    axs[i, 0].set_title(f"Filter {i + 1}")
+    axs[i, 0].axis('off')
+
+    axs[i, 1].imshow(feature_map, cmap='gray')
+    axs[i, 1].set_title(f"Feature Map {i + 1}")
+    axs[i, 1].axis('off')
+
+plt.tight_layout()
+plt.show()
