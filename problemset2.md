@@ -3,7 +3,7 @@
 ##Here is a breakdown of what each section does:
 
 
-##[2]:** Importing necessary libraries for the image processing 
+##Importing necessary libraries for the image processing 
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -11,41 +11,41 @@ import requests
 from PIL import Image
 import cv2
 
-##**[3]:** Fetching an image from a URL using the requests 
+##Fetching an image from a URL using the requests 
 #library and converting it into an RGB image using the PIL library.
 
 URL = 'https://3.bp.blogspot.com/-DG4rqFtAJ4c/T-8mUvVo6yI/AAAAAAAADKc/eSxKhutGC_Q/s1600/green+glades+017.JPG'
 response = requests.get(URL, stream=True)
 img = Image.open(response.raw).convert("RGB")
 
-##**[4]:** Displaying the original image using matplotlib.
+## Displaying the original image using matplotlib.
 plt.imshow(img)
 plt.title("Original Image")
 plt.axis('off')
 plt.show()
 
-##**[5]:** Converting the image into a numpy array and printing its shape.
+## Converting the image into a numpy array and printing its shape.
 
 img_array = np.array(img)
 print("Shape:", img_array.shape)
 
-##*[6]:** Resizing the image to a specific size using the cv2 library.
+## Resizing the image to a specific size using the cv2 library.
 resized_image = cv2.resize(img_array, (224, 224))
 
-##**[7]:** Displaying the resized image using matplotlib.
+## Displaying the resized image using matplotlib.
 plt.imshow(resized_image)
 plt.title("Resized Image")
 plt.axis('off')
 plt.show()
 
-##**[8]:** Converting the resized image to grayscale using the cv2 library.
+## Converting the resized image to grayscale using the cv2 library.
 
-##* Printing the shape of the grayscale image.
+## Printing the shape of the grayscale image.
 
 grayscale_image = cv2.cvtColor(resized_image, cv2.COLOR_RGB2GRAY)
 print("Grayscale Shape:", grayscale_image.shape)
 
-##* Printing the shape of the grayscale image.
+##Printing the shape of the grayscale image.
 
 ## Displaying the grayscale image using matplotlib.
 plt.imshow(grayscale_image, cmap='gray')
@@ -53,7 +53,7 @@ plt.title("Grayscale Image")
 plt.axis('off')
 plt.show()
 
-##**[10]:** Creating 10 random filters and applying them to the grayscale image to generate 10 feature maps. 
+## Creating 10 random filters and applying them to the grayscale image to generate 10 feature maps. 
 ##The filters are displayed alongside their corresponding feature maps using matplotlib.
 
 filter_size = 3
