@@ -78,3 +78,6 @@ plt.show()
 ##processes it by resizing and converting it to grayscale, 
 ##and then applies a set of randomly generated filters to create feature maps. 
 ##The resulting images are displayed for visualization.
+
+###code 
+view code [here](https://colab.research.google.com/drive/1PvbuQr4TIVPRV_VeN25je_OwQJ7jiNOZ)
