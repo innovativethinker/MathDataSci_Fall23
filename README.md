@@ -30,5 +30,5 @@
 
 ## Original Code[here]
 
-[problemset2.py](https://github.com/innovativethinker/MathDataSci_Fall23/blob/main/problemset2md)
+[problemset2.py]([https://github.com/innovativethinker/MathDataSci_Fall23/blob/main/problemset2md](https://colab.research.google.com/drive/1PvbuQr4TIVPRV_VeN25je_OwQJ7jiNOZ)https://colab.research.google.com/drive/1PvbuQr4TIVPRV_VeN25je_OwQJ7jiNOZ)
 
