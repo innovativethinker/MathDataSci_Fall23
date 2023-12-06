@@ -11,7 +11,7 @@
 
 [Slides](https://docs.google.com/presentation/d/1yTMsjVTuRpQCWYUB5bRqmMdR3zbm4SHhc-cBgeQpjYM/edit?usp=sharing)
 
-##Platforms
+## Platforms
 1) Sign up for Github
 2) Sign up for Colab
 3) Sign up for Latex
