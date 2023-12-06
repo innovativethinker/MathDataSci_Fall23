@@ -18,7 +18,43 @@
 
 
 ## Colab Notebooks
+[Notebook1A](https://colab.research.google.com/drive/10W-q3ZJMBU-pClhYmIpqCUTw5RI7Q9li?usp=sharing)
 [Notebook1](https://colab.research.google.com/drive/10W-q3ZJMBU-pClhYmIpqCUTw5RI7Q9li?usp=sharing)
+
+[Notebook2](https://colab.research.google.com/drive/1YepukYor05NHx0koqzhNEaPMTDpjI-Sa?usp=sharing)
+
+[MNIST Dataset](https://colab.research.google.com/drive/1NTT8UfoaV13p-rqkohWqtzQ2p6ICR2li?usp=sharing)
+
+[Data Dashboards](https://colab.research.google.com/drive/1haNqEs6KHLKlhedb9zDgmwAePYhGVNSJ?usp=sharing)
+
+[WandB](https://colab.research.google.com/drive/1o-mkALwdwlz8h39gamrHPVd17wlzlUNs?usp=sharing)
+
+[Flowers 102](https://colab.research.google.com/drive/1YQ2txm0h41gvxnD_iEU4wmReGZX9hdWA?usp=sharing)
+
+[Conv1](https://colab.research.google.com/drive/1kf0i0P2gFtkuCm5zVO68VT8fP8ryN0Iq?usp=sharing)
+
+[Alexnet](https://colab.research.google.com/drive/1onlVrce4bfYNpHOWysOa3PE4pv15vZo0?usp=sharing)
+
+[Autoencoder and GAN](https://colab.research.google.com/drive/1plbvxqA4vjJqJZ2XzUkUoZaXhabovhfv?usp=sharing)
+
+[AlexNet Functional](https://colab.research.google.com/drive/1gymf98aiTdUaM9eY8fgs3RM-wfb_sc78?usp=sharing)
+
+[Alexnet FMRI](https://colab.research.google.com/drive/1itMtHx_z4mBrI7ObqHI661LgBHa9fWWk?usp=sharing)
+
+[Alexnet Filters and Feature Maps](https://colab.research.google.com/drive/11IJ27NHDdtqZASIkYMjCRH-39-Peaz3F?usp=sharing)
+
+[Webcam](https://colab.research.google.com/drive/1EFj_9qfGDXioY315kMqYyYZHQDKyFKYP?usp=sharing)
+
+[Alexnet Filters](https://colab.research.google.com/drive/1YQ2txm0h41gvxnD_iEU4wmReGZX9hdWA?usp=sharing)
+
+[Custom Data Filter](https://colab.research.google.com/drive/1LgTU2EmyB-I2YICjckW0dClipVBrt-1z?usp=sharing)
+
+[Alexnet Train from Slides](https://colab.research.google.com/drive/16yId_Y7fSr6D89m-uU-RbUlArJ8bUmRL?usp=sharing)
+
+[Yolo](https://colab.research.google.com/drive/1Fz4q_NRSEPkz8jVPJM-qrOQEYLmRrbEv?usp=sharing)
+
+[Audio](https://colab.research.google.com/drive/1lrasjDqOvOz4h1vAbuCfiaJCVzpmXOuq?usp=sharing)
+
 
 
 
