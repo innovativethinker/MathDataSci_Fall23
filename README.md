@@ -11,7 +11,7 @@
 
 [Slides](https://docs.google.com/presentation/d/1yTMsjVTuRpQCWYUB5bRqmMdR3zbm4SHhc-cBgeQpjYM/edit?usp=sharing)
 
-[Platforms]
+##Platforms
 1) Sign up for Github
 2) Sign up for Colab
 3) Sign up for Latex
@@ -86,7 +86,7 @@
 
 
 
-## Advanced Material (Not Required)
+## Advanced Material 
 * [Compressed Sensing ](https://www.youtube.com/watch?v=RvMgVv-xZhQ)
 * [Extreme Learning Machine](https://colab.research.google.com/drive/1IFZ91C8mymfwVpG-36y9Xr3z_gi68PmJ?usp=sharing)
 * [Reservoir Computer](https://colab.research.google.com/drive/11TAM-3jN_6eYn2HyjWolLUHpAg0fWQMJ?usp=sharing) 
@@ -97,7 +97,7 @@
   
 [Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
 
-## Original Code[here]
+## Original Code
 [problemset1.py](https://colab.research.google.com/drive/1qOSO5U4iMzSX_pQ0Ka-Twm39Wumksc87)
 
 [problemset2.py](https://colab.research.google.com/drive/1PvbuQr4TIVPRV_VeN25je_OwQJ7jiNOZ)
