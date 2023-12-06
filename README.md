@@ -1,5 +1,12 @@
 # Mathematics of Data Science
 
+Pose Machine](https://colab.research.google.com/drive/1EPTcfJWljZ_7nDF2lCzR7BaTTly3vEjq?usp=sharing)
+
+[SAM](https://colab.research.google.com/drive/1bqvOqByBsvcLsij-cDoWd5_Kmqfh5jz0?usp=sharing)
+
+[Projects](https://docs.google.com/document/d/1jN0r_sQBO9LokUmi0_TQZUkyb7Z1Vdz6mORofGj2Kzk/edit?usp=sharing)
+
+[Overleaf](https://www.overleaf.com/latex/templates)
 <hr>
 
 [Slides](https://docs.google.com/presentation/d/1yTMsjVTuRpQCWYUB5bRqmMdR3zbm4SHhc-cBgeQpjYM/edit?usp=sharing)
@@ -62,6 +69,34 @@
 [Roster](https://docs.google.com/presentation/d/1v-JmiJSsevYhvAT2_AI30L-v0Lr-urQwHAqmasQFJi0/edit?usp=sharing)
 
 ## Links
+
+[Convnet Types](https://github.com/vdumoulin/conv_arithmetic)
+
+[Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
+
+[Convolution](https://setosa.io/ev/image-kernels/#:~:text=An%20image%20kernel%20is%20a,important%20portions%20of%20an%20image.)
+
+[Deep Learning Viz Toolbox](https://www.youtube.com/watch?v=AgkfIQ4IGaM)
+
+
+
+## Web Demos
+
+[Classic Filters](https://williamedwardhahn.github.io/data_website/Conv3.html)
+
+[Random Filters](https://williamedwardhahn.github.io/data_website/Conv5.html)
+
+
+
+## Advanced Material (Not Required)
+* [Compressed Sensing ](https://www.youtube.com/watch?v=RvMgVv-xZhQ)
+* [Extreme Learning Machine](https://colab.research.google.com/drive/1IFZ91C8mymfwVpG-36y9Xr3z_gi68PmJ?usp=sharing)
+* [Reservoir Computer](https://colab.research.google.com/drive/11TAM-3jN_6eYn2HyjWolLUHpAg0fWQMJ?usp=sharing) 
+* Finetune [Flowers 102](https://colab.research.google.com/drive/1YQ2txm0h41gvxnD_iEU4wmReGZX9hdWA?usp=sharing) on Image Transformer
+
+## AI
+[Video History Series](https://clp.bbcrewind.co.uk/programmes)https://clp.bbcrewind.co.uk/programmes
+  
 [Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
 
 ## Original Code[here]
