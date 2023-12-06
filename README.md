@@ -1,6 +1,6 @@
 # Mathematics of Data Science
 
-Pose Machine](https://colab.research.google.com/drive/1EPTcfJWljZ_7nDF2lCzR7BaTTly3vEjq?usp=sharing)
+[Pose Machine](https://colab.research.google.com/drive/1EPTcfJWljZ_7nDF2lCzR7BaTTly3vEjq?usp=sharing)
 
 [SAM](https://colab.research.google.com/drive/1bqvOqByBsvcLsij-cDoWd5_Kmqfh5jz0?usp=sharing)
 
